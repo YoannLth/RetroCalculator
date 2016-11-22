@@ -12,6 +12,9 @@
 		8F1ADEB71DE4447E000923C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1ADEB51DE4447E000923C2 /* Main.storyboard */; };
 		8F1ADEB91DE4447E000923C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1ADEB81DE4447E000923C2 /* Assets.xcassets */; };
 		8F1ADEBC1DE4447E000923C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1ADEBA1DE4447E000923C2 /* LaunchScreen.storyboard */; };
+		8F1E179D1DE4BA0000BB6243 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E179C1DE4BA0000BB6243 /* Operation.swift */; };
+		8F3141811DE4B4A900E61C1E /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F3141801DE4B4A900E61C1E /* Minecraft.ttf */; };
+		8F3141831DE4B56800E61C1E /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F3141821DE4B56800E61C1E /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8F1ADEB81DE4447E000923C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F1ADEBB1DE4447E000923C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F1ADEBD1DE4447E000923C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1E179C1DE4BA0000BB6243 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		8F3141801DE4B4A900E61C1E /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		8F3141821DE4B56800E61C1E /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		8F1ADEB01DE4447E000923C2 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				8F3141801DE4B4A900E61C1E /* Minecraft.ttf */,
+				8F3141821DE4B56800E61C1E /* btn.wav */,
 				8F1ADEB11DE4447E000923C2 /* AppDelegate.swift */,
 				8F1ADEB31DE4447E000923C2 /* ViewController.swift */,
 				8F1ADEB51DE4447E000923C2 /* Main.storyboard */,
 				8F1ADEB81DE4447E000923C2 /* Assets.xcassets */,
 				8F1ADEBA1DE4447E000923C2 /* LaunchScreen.storyboard */,
 				8F1ADEBD1DE4447E000923C2 /* Info.plist */,
+				8F1E179C1DE4BA0000BB6243 /* Operation.swift */,
 			);
 			path = RetroCalculator;
 			sourceTree = "<group>";
@@ -91,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = ylth;
 				TargetAttributes = {
 					8F1ADEAD1DE4447D000923C2 = {
@@ -124,8 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3141831DE4B56800E61C1E /* btn.wav in Resources */,
 				8F1ADEBC1DE4447E000923C2 /* LaunchScreen.storyboard in Resources */,
 				8F1ADEB91DE4447E000923C2 /* Assets.xcassets in Resources */,
+				8F3141811DE4B4A900E61C1E /* Minecraft.ttf in Resources */,
 				8F1ADEB71DE4447E000923C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +150,7 @@
 			files = (
 				8F1ADEB41DE4447E000923C2 /* ViewController.swift in Sources */,
 				8F1ADEB21DE4447E000923C2 /* AppDelegate.swift in Sources */,
+				8F1E179D1DE4BA0000BB6243 /* Operation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +194,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -232,6 +245,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -302,6 +316,7 @@
 				8F1ADEC21DE4447E000923C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
