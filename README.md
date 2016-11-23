@@ -1,4 +1,4 @@
-# MiraclePills
+# RetroCalculator
 iOS 10 app as part of a Udemy tutorial.
 Single view app retro calculator with sounds
 
